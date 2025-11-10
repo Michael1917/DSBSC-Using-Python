@@ -63,7 +63,7 @@ plt.plot(t,s)
 
 ### Tabular Column:
 
-asdfgh
+<img width="1479" height="810" alt="image" src="https://github.com/user-attachments/assets/02ed5865-24aa-4a8e-b8fd-e28ab976e2a5" />
 
 ---
 
