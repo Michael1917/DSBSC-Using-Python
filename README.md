@@ -30,11 +30,11 @@ To implement and analyze DSBSC using Python's NumPy and Matplotlib libraries.
 ```py
 import numpy as np
 import matplotlib.pyplot as plt
-Am=6.6
-fm=514
-Ac=13.2
-fc=5140
-fs=51400
+Am=4.8
+fm=9.6
+Ac=360
+fc=3600
+fs=36000
 t=np.arange(0, 3/fm, 1/fs)
 
 m = Am*np.cos(2*3.14*fm*t)
@@ -51,19 +51,20 @@ s2=(Ac-m)*np.cos(2*3.14*fc*t)
 s=s1-s2
 plt.subplot(3,1,3)
 plt.plot(t,s)
+
 ```
 
 ---
 
 ### Output Waveform:
 
-<img width="566" height="413" alt="dsbsc" src="https://github.com/user-attachments/assets/5207422d-46fc-419d-ae2e-071430a469d6" />
+<img width="695" height="506" alt="image" src="https://github.com/user-attachments/assets/6d04610a-0998-4d0c-bf3a-82164ec209ca" />
 
 ---
 
 ### Tabular Column:
 
-<img width="1479" height="810" alt="image" src="https://github.com/user-attachments/assets/02ed5865-24aa-4a8e-b8fd-e28ab976e2a5" />
+![WhatsApp Image 2025-11-24 at 20 26 32](https://github.com/user-attachments/assets/3170d88d-c50d-4c4a-a1df-d0edd737a585)
 
 ---
 
